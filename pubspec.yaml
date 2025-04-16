@@ -1,0 +1,54 @@
+# pubspec.yaml
+
+name: inscription
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Adjust according to your Flutter/Dart version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.0.0+4
+  path: ^1.8.3
+  sqflite_common_ffi: ^2.3.4+4
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lentilles.jpg
+    - assets/poulet.jpg
+    - assets/quinoi.jpg
+    - assets/roquette.jpg
+    - assets/food.jpg
+    - assets/slata.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
